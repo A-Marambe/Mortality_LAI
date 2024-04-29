@@ -1,5 +1,5 @@
-# Mortality and LAI - BIOL6500
-This project analyzes the Aerial Detection Survey data and the MODIS Leaf Area Index data 
+# Tree Mortality and LAI - BIOL6500
+This project uses classified polygons of the Aerial Detection Survey (ADS) to collect the Leaf Area Index from MODIS 8 LAI products for 23 years. It can cloud masking and compositing images into annual observations before analysis. It uses rasterstats package to collect descriptive statistics over 23 years for all ADS polygons to generate dataframes.
 
 **Input**
 Aerial Detection Survey Data  
